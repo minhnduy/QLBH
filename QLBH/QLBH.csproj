@@ -84,6 +84,7 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
     <EmbeddedResource Include="VIEW\Login.resx">
       <DependentUpon>Login.cs</DependentUpon>
@@ -106,6 +107,9 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="MODEL\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\login.PNG" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
